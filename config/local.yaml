@@ -1,6 +1,0 @@
-env: "local" # or can be dev, prod
-storage_path: "./storage/sso.db" # db file
-token_ttl: 1h # time to live
-grpc: # grpc server settings
-  port: 44044
-  timeout: 10h # for local dev it is ok, but for prod timeout should be about 5s
